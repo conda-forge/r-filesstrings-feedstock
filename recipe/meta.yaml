@@ -15,7 +15,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1000
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -66,8 +66,7 @@ about:
   summary: Convenient functions for moving files, deleting directories,  and a variety of string
     operations that facilitate manipulating files  and extracting information from strings.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
