@@ -34,6 +34,7 @@ requirements:
     - r-stringi >=1.3.1
     - r-stringr
     - r-tibble >=2.0.1
+    - r-vctrs >=0.2.2
     - r-withr >=2.1.0
   run:
     - r-base
@@ -46,6 +47,7 @@ requirements:
     - r-stringi >=1.3.1
     - r-stringr
     - r-tibble >=2.0.1
+    - r-vctrs >=0.2.2
     - r-withr >=2.1.0
 
 test:
@@ -55,7 +57,7 @@ test:
 
 about:
   home: https://www.github.com/rorynolan/filesstrings
-  license: GPL-3
+  license: GPL-3.0-only
   summary: This started out as a package for file and string manipulation.  Since then, the 'fs' and 'strex' packages emerged, offering functionality previously given by this package (but it's done better in these new ones).  Those packages have hence almost pushed 'filesstrings' into extinction.  However, it still has a
     small number of unique, handy file manipulation  functions which can be seen in the vignette.  One example is a function to remove spaces from all file names in a  directory.
   license_family: GPL3
