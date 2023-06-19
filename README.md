@@ -1,11 +1,11 @@
-About r-filesstrings
-====================
+About r-filesstrings-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-filesstrings-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.github.com/rorynolan/filesstrings
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-filesstrings-feedstock/blob/main/LICENSE.txt)
 
 Summary: This started out as a package for file and string manipulation.  Since then, the 'fs' and 'strex' packages emerged, offering functionality previously given by this package (but it's done better in these new ones).  Those packages have hence almost pushed 'filesstrings' into extinction.  However, it still has a small number of unique, handy file manipulation  functions which can be seen in the vignette.  One example is a function to remove spaces from all file names in a  directory.
 
